@@ -1,0 +1,192 @@
+/* TemperatureDashboard.css */
+
+/* Main container */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #f3f4f6;
+  border-radius: 0.5rem;
+}
+
+/* Header section */
+.dashboard-header {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-text {
+  font-weight: 600;
+}
+
+/* Panel grid layout */
+.panel-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .panel-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Panel styles */
+.panel {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.panel-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Temperature display */
+.temp-display {
+  display: flex;
+  align-items: center;
+}
+
+.temp-value {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+
+.temp-range {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+/* Status colors */
+.status-cold {
+  color: #3b82f6; /* blue */
+}
+
+.status-normal {
+  color: #10b981; /* green */
+}
+
+.status-hot {
+  color: #ef4444; /* red */
+}
+
+.status-alarm {
+  color: #ef4444; /* red */
+  margin-left: 0.25rem;
+}
+
+/* Equipment section */
+.equipment-select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.equipment-info {
+  font-size: 0.875rem;
+}
+
+.info-label {
+  font-weight: 600;
+}
+
+/* Alarm section */
+.alarm-panel {
+  border: 2px solid #ef4444;
+}
+
+.alarm-title {
+  display: flex;
+  align-items: center;
+}
+
+.alarm-icon {
+  color: #ef4444;
+  margin-left: 0.5rem;
+}
+
+.alarm-box {
+  background-color: #fee2e2;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.alarm-message {
+  color: #b91c1c;
+  font-weight: 600;
+}
+
+.alarm-details {
+  font-size: 0.875rem;
+}
+
+.normal-box {
+  background-color: #d1fae5;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.normal-message {
+  color: #047857;
+}
+
+.alarm-history {
+  margin-top: 0.5rem;
+}
+
+.history-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.history-list {
+  font-size: 0.75rem;
+  max-height: 6rem;
+  overflow-y: auto;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.history-item {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.no-alarms {
+  padding: 0.25rem 0;
+  color: #6b7280;
+}
+
+/* Chart panel */
+.chart-panel {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container {
+  height: 16rem;
+}

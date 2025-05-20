@@ -1,0 +1,310 @@
+/* WaterPressureBoosterDashboard.css */
+
+/* Main Container */
+.dashboard-container {
+  padding: 1.5rem;
+  background-color: #f3f4f6;
+  min-height: 100vh;
+}
+
+/* Header */
+.dashboard-header {
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.25rem;
+}
+
+.dashboard-subtitle {
+  color: #6b7280;
+}
+
+/* Panel Grid */
+.panel-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .panel-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Panel Styles */
+.panel {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.panel-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+/* Current Readings Panel */
+.readings-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.reading-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reading-label {
+  display: flex;
+  align-items: center;
+  color: #6b7280;
+}
+
+.reading-label span {
+  margin-left: 0.5rem;
+}
+
+.reading-value {
+  font-weight: 600;
+}
+
+.value-success {
+  color: #10b981;
+}
+
+.value-danger {
+  color: #ef4444;
+}
+
+.value-warning {
+  color: #f59e0b;
+}
+
+.value-neutral {
+  color: #6b7280;
+}
+
+.time-display {
+  padding-top: 0.5rem;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 0.5rem;
+  color: #6b7280;
+}
+
+.time-value {
+  font-weight: 600;
+}
+
+/* Icon colors */
+.icon-blue {
+  color: #3b82f6;
+}
+
+.icon-success {
+  color: #10b981;
+}
+
+.icon-alarm {
+  color: #ef4444;
+}
+
+.pulse {
+  animation: pulse-animation 1.5s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* System Status Panel */
+.status-box {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
+
+.status-normal {
+  background-color: #d1fae5;
+}
+
+.status-alarm {
+  background-color: #fee2e2;
+}
+
+.status-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.status-text {
+  margin-left: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.text-success {
+  color: #10b981;
+}
+
+.text-alarm {
+  color: #ef4444;
+}
+
+.status-message {
+  color: #10b981;
+  text-align: center;
+}
+
+.alarm-message {
+  color: #ef4444;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Equipment Stats Panel */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.stat-box,
+.maintenance-box {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+.stat-value {
+  font-weight: 600;
+}
+
+/* Charts */
+.chart-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.chart-container {
+  height: 16rem;
+}
+
+.pump-chart-container {
+  height: 10rem;
+}
+
+/* System Analytics */
+.analytics-panel {
+  margin-bottom: 1.5rem;
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .analytics-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.analytics-box {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.analytics-title {
+  font-weight: 600;
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
+
+.analytics-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.analytics-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.analytics-label {
+  color: #6b7280;
+}
+
+.analytics-value {
+  font-weight: 500;
+}
+
+/* Alarm History */
+.alarm-history-container {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.alarm-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.alarm-table th {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.alarm-table td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.alarm-value {
+  font-weight: 600;
+  color: #ef4444;
+}
+
+.no-alarms {
+  text-align: center;
+  color: #6b7280;
+  padding: 1rem;
+}
