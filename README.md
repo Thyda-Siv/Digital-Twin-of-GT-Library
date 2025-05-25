@@ -37,7 +37,7 @@ This project focused on creating a functional Digital Twin (DT) for the Price Gi
 - Modeled MEP systems based on site inventory and floorplans
 - Set up properties on each equipment (OMNICLASS_SYSTEM, OMNICLASS_TYPE, AugmentID_Type, AugmentID_Instance, and Space-instance) and applied value from Omniclass Table 23 for each equipment type
 
-  Example for Electrical Lighting
+_Example for Electrical Lighting_
     
     Property Name: OMNICLASS_SYSTEM; Property Value: 21-04 50 Electrical; Group Property Under: General; Property Type: Text
     
