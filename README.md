@@ -15,7 +15,7 @@ This project focused on creating a functional Digital Twin (DT) for the Price Gi
 
 ## Video Demo
 
-[![Watch the demo video](DT demo of GT library.png)](https://www.youtube.com/watch?v=aH_DdPCd3Rc](https://www.youtube.com/watch?v=42Uqbr8NnDM)  
+[![Watch the demo video](DT demo of GT library.png)](https://www.youtube.com/watch?v=42Uqbr8NnDM)
 *Click on the image to view the video.*
 
 ## Detailed Setup Guide
