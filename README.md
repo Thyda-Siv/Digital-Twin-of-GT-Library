@@ -28,11 +28,17 @@ This project focused on creating a functional Digital Twin (DT) for the Price Gi
 - Modeled architectural elements: walls, floors, ceilings, doors, windows, stairs
 - Modeled MEP systems based on site inventory and floorplans
 - Set up properties on each equipment (OMNICLASS_SYSTEM, OMNICLASS_TYPE, AugmentID_Type, AugmentID_Instance, and Space-instance) and applied value from Omniclass Table 23 for each equipment type
-  Example for Electrical Lighting
+
+Example for Electrical Lighting
+    
     Property Name: OMNICLASS_SYSTEM; Property Value: 21-04 50 Electrical; Group Property Under: General; Property Type: Text
+    
     Property Name: OMNICLASS_TYPE; Property Value: 23-35 47 00 Electrical Lighting, Group Property Under: General; Property Type: Text
+    
     Property Name: AugmentID_Type; Possible Values: Leave empty; Group Property Under: General; Property Type: Text
+    
     Property Name: AugmentID_Instance; Possible Values: Leave empty; Group Property Under: Title Text; Property Type: Text
+    
     Property Name: Space-Instance; Possible Values: Leave empty; Group Property Under: Title Text; Property Type: Text
 3. Digital Twin Setup in WireTwin
 - Uploaded Revit model into WireTwin
