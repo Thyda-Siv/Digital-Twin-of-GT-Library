@@ -50,4 +50,15 @@ Example for Electrical Lighting
 - Simulated equipment performance data and BAS integration
 
 ## Digital Twin Demo of BAS (Building Automation Sytem)
+1. AHU (Air Handling Unit): Monitors airflow, temperature, and humidity levels, with performance and fault alerts
+2. Drinking Fountain: Monitors usage rates and maintenance requirements
+3. Electrical Distribution Panel Board: Displays load status, energy consumption, and fault detection
+4. Elevator: Displays operational status, load, and maintenance logs
+5. Generator: Shows real-time operational status, fuel levels, and maintenance needs
+6. Lighting: Monitors energy use, on/off status, and integrates occupancy-based controls
+7. Temperature Sensor:Tracks ambient temperature; triggers alerts on deviation
+8. Transformer: (Assumed added) Tracks power conversion performance and alerts
+9. Water Closet: Tracks plumbing status and maintenance schedules
+10. Water Pressure System: Monitors building water pressure stability, flow rate, system performance and pump operation history.
+
 
