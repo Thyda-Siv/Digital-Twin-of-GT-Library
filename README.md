@@ -15,8 +15,16 @@ This project focused on creating a functional Digital Twin (DT) for the Price Gi
 
 ## Video Demo
 
-[![Watch the demo video](DT demo of GT library.png)](https://www.youtube.com/watch?v=42Uqbr8NnDM)
-*Click on the image to view the video.*
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <a href="https://www.youtube.com/wwatch?v=42Uqbr8NnDM" target="_blank">
+        <img src="DT demo of GT library.png" alt="Demo Video " style="width: 300px;">
+      </a>
+      <p>*Click on the image to view Demo Video.*</p>
+    </td>
+  </tr>
+</table>
 
 ## Detailed Setup Guide
 1.  Laser Scanning (Reality Capture)
