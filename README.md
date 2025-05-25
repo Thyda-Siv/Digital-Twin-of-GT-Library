@@ -48,3 +48,6 @@ Example for Electrical Lighting
 - Created equipment-based maintenance schedules (preventive + reactive tasks)
 - Set up automated notifications, resource allocation, and mobile technician access
 - Simulated equipment performance data and BAS integration
+
+## Digital Twin Demo of BAS (Building Automation Sytem)
+
